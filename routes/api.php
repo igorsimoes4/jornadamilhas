@@ -18,4 +18,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/', );
+Route::prefix('depoimentos')->group(function () {
+    Route::post();
+    Route::get();
+    Route::put();
+    Route::delete();
+});
