@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class DepoimentosController extends Controller
 {
@@ -21,9 +22,24 @@ class DepoimentosController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $r)
     {
-        //
+        $data = $r->only(
+            'depoimento',
+            'name',
+            'foto'
+        );
+
+        $validator = Validator::make($data, [
+            'depoimento' => ['required', 'string'],
+            'name' => ['required', 'string'],
+            'foto' => ['required', 'image']
+        ]);
+
+        if($validator->fails()) {
+            return response()->json();
+        }
+
     }
 
     /**
@@ -32,10 +48,6 @@ class DepoimentosController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
-    }
 
     /**
      * Display the specified resource.
@@ -46,6 +58,10 @@ class DepoimentosController extends Controller
     public function show($id)
     {
         //
+    }
+
+    public function show_3() {
+
     }
 
     /**
@@ -66,10 +82,6 @@ class DepoimentosController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
-        //
-    }
 
     /**
      * Remove the specified resource from storage.
