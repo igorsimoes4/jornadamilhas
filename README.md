@@ -16,7 +16,9 @@ A API Jornada Milhas é uma aplicação web que fornece endpoints para gerenciar
 
 ## Detalhes do projeto
 
-## Endpoints
+## Rotas Depoimentos
+
+![Rotas depoimentos](https://github.com/igorsimoes4/jornadamilhas/assets/41714117/faffa45b-768d-45ca-a8da-7e0a4b6339ff)
 
 ### Obter Depoimentos Aleatórios
 
@@ -95,10 +97,7 @@ Permite excluir um depoimento existente.
 
 Por favor, observe que esta API não implementa autenticação de usuários ou outras medidas de segurança. Versões futuras podem incluir esses recursos para garantir a integridade dos dados e a privacidade dos usuários.
 
-### Rotas Depoimentos
 
-
-![Rotas depoimentos](https://github.com/igorsimoes4/jornadamilhas/assets/41714117/faffa45b-768d-45ca-a8da-7e0a4b6339ff)
 
 # Autor
 
