@@ -4,7 +4,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **Api Jornada Milhas**
 | :label: Tecnologias | php, laravel, (tecnologias utilizadas)
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :fire: Desafio     | [https://url-do-desafio.com.br](https://www.alura.com.br/challenges/back-end-7/semana-01-classes-relacionamentos-depoimentos)
 
 
 ## Detalhes do projeto
