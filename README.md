@@ -103,7 +103,74 @@ Permite excluir um depoimento existente.
 
 Por favor, observe que esta API não implementa autenticação de usuários ou outras medidas de segurança. Versões futuras podem incluir esses recursos para garantir a integridade dos dados e a privacidade dos usuários.
 
+Claro! Aqui está o texto formatado para o arquivo README.md no GitHub:
 
+# 📁 Acesso ao projeto
+
+Você pode acessar o código fonte completo do projeto [aqui](https://github.com/igorsimoes4/jornada-milhas).
+
+# 🛠️ Abrir e rodar o projeto
+
+Para abrir e executar o projeto, siga as instruções abaixo:
+
+## Pré-requisitos
+
+Antes de prosseguir, certifique-se de ter as seguintes tecnologias instaladas em seu ambiente de desenvolvimento:
+
+- [PHP 7.4](https://www.php.net/)
+- [Composer](https://getcomposer.org/)
+- [MySQL 8.0](https://www.mysql.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) (ou IDE de sua preferência)
+
+## Passo 1: Clonar o repositório
+
+Clone o repositório do projeto para o seu ambiente local usando o seguinte comando Git:
+
+```bash
+git clone https://github.com/seu-usuario/jornada-milhas.git
+```
+
+## Passo 2: Instalar as dependências
+
+Navegue até o diretório do projeto e instale as dependências do Composer executando:
+
+```bash
+cd jornada-milhas
+composer install
+```
+
+## Passo 3: Configurar o ambiente
+
+Faça uma cópia do arquivo `.env.example` e renomeie-o para `.env`. Em seguida, atualize as configurações do banco de dados no arquivo `.env` com suas credenciais locais:
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=seu-host
+DB_PORT=seu-port
+DB_DATABASE=seu-database
+DB_USERNAME=seu-usuario
+DB_PASSWORD=sua-senha
+```
+
+## Passo 4: Executar as migrações
+
+Com o ambiente configurado, crie as tabelas necessárias no banco de dados executando as migrações:
+
+```bash
+php artisan migrate
+```
+
+## Passo 5: Executar o servidor
+
+Finalmente, inicie o servidor de desenvolvimento local com o comando:
+
+```bash
+php artisan serve
+```
+
+O projeto estará disponível em `http://localhost:8000`.
+
+Agora você pode acessar e testar a API Jornada Milhas localmente.
 
 # Autor
 
