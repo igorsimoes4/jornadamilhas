@@ -14,6 +14,13 @@ A API Jornada Milhas é uma aplicação web que fornece endpoints para gerenciar
 ![](https://github-production-user-asset-6210df.s3.amazonaws.com/41714117/257077735-faffa45b-768d-45ca-a8da-7e0a4b6339ff.png#vitrinedev)
 
 ## Detalhes do projeto
+✔️ Técnicas e tecnologias utilizadas
+- ``Laravel``
+- ``PHP``
+- ``MySQL``
+- ``Visual Studio Code``
+- ``Orientação a Objetos``
+- ``PHPUnit``
 
 ## Rotas Depoimentos
 
