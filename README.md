@@ -2,6 +2,8 @@
 
 A API Jornada Milhas é uma aplicação web que fornece endpoints para gerenciar depoimentos de clientes. A API permite que os usuários leiam depoimentos existentes e enviem seus próprios depoimentos. Foi desenvolvida utilizando o framework Laravel.
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Api Jornada Milhas**
@@ -97,3 +99,7 @@ Por favor, observe que esta API não implementa autenticação de usuários ou o
 
 
 ![Rotas depoimentos](https://github.com/igorsimoes4/jornadamilhas/assets/41714117/faffa45b-768d-45ca-a8da-7e0a4b6339ff)
+
+# Autores
+
+[<img loading="igorsimoes4" src="[https://avatars.githubusercontent.com/u/41714117?v=4]" width=115><br><sub>Igor Simões da Silveira</sub>](https://github.com/igorsimoes4)
