@@ -1,4 +1,6 @@
-# Desenvolvimento da API Jornada Milhas
+# API Jornada Milhas
+
+A API Jornada Milhas é uma aplicação web que fornece endpoints para gerenciar depoimentos de clientes. A API permite que os usuários leiam depoimentos existentes e enviem seus próprios depoimentos. Foi desenvolvida utilizando o framework Laravel.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
@@ -11,8 +13,84 @@
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+## Endpoints
 
+### Obter Depoimentos Aleatórios
+
+Recupera até 3 depoimentos aleatórios para exibir na página inicial.
+
+- **URL:** `/api/depoimentos-home`
+- **Método:** `GET`
+- **Resposta de Sucesso:**
+  - **Código de Status:** 200 OK
+  - **Conteúdo:** Array JSON contendo até 3 depoimentos, cada um com as seguintes propriedades:
+    - `id` (integer): O identificador único do depoimento.
+    - `depoimento` (string): O conteúdo do depoimento.
+    - `user_name` (string): O nome do usuário que enviou o depoimento.
+    - `foto` (string): A URL da foto do usuário (opcional).
+
+- **Resposta de Erro:**
+  - **Código de Status:** 404 Not Found
+  - **Conteúdo:** Objeto JSON com a seguinte propriedade:
+    - `message` (string): "Nenhum depoimento encontrado!" (Nenhum depoimento encontrado).
+
+### Enviar Depoimento
+
+Permite que os usuários enviem seus próprios depoimentos.
+
+- **URL:** `/api/depoimentos/create`
+- **Método:** `POST`
+- **Parâmetros de Dados:** Objeto JSON contendo as seguintes propriedades:
+  - `depoimento` (string, obrigatório): O conteúdo do depoimento.
+  - `nome_user` (string, obrigatório): O nome do usuário que está enviando o depoimento.
+
+- **Resposta de Sucesso:**
+  - **Código de Status:** 201 Created
+  - **Conteúdo:** Objeto JSON representando o depoimento criado, com as seguintes propriedades:
+    - `id` (integer): O identificador único do depoimento.
+    - `depoimento` (string): O conteúdo do depoimento.
+    - `user_name` (string): O nome do usuário que enviou o depoimento.
+    - `foto` (string): A URL da foto do usuário (opcional).
+
+### Atualizar Depoimento
+
+Permite atualizar um depoimento existente.
+
+- **URL:** `/api/depoimentos/{id}`
+- **Método:** `PUT`
+- **Parâmetros da URL:** `id` (integer, obrigatório): O identificador único do depoimento a ser atualizado.
+- **Parâmetros de Dados:** Objeto JSON contendo os campos a serem atualizados:
+  - `depoimento` (string, opcional): O conteúdo atualizado do depoimento.
+  - `nome_user` (string, opcional): O nome atualizado do usuário que enviou o depoimento.
+
+- **Resposta de Sucesso:**
+  - **Código de Status:** 200 OK
+  - **Conteúdo:** Objeto JSON representando o depoimento atualizado, com as seguintes propriedades:
+    - `id` (integer): O identificador único do depoimento.
+    - `depoimento` (string): O conteúdo atualizado do depoimento.
+    - `user_name` (string): O nome atualizado do usuário que enviou o depoimento.
+    - `foto` (string): A URL da foto do usuário (opcional).
+
+### Excluir Depoimento
+
+Permite excluir um depoimento existente.
+
+- **URL:** `/api/depoimentos/{id}`
+- **Método:** `DELETE`
+- **Parâmetros da URL:** `id` (integer, obrigatório): O identificador único do depoimento a ser excluído.
+
+- **Resposta de Sucesso:**
+  - **Código de Status:** 200 OK
+  - **Conteúdo:** Objeto JSON com a seguinte propriedade:
+    - `message` (string): "Depoimento excluído com sucesso!" (Depoimento excluído com sucesso).
+
+## Códigos de Status
+
+- 200 OK: A requisição foi bem-sucedida.
+- 201 Created: O recurso foi criado com sucesso.
+- 404 Not Found: O recurso solicitado não foi encontrado.
+
+Por favor, observe que esta API não implementa autenticação de usuários ou outras medidas de segurança. Versões futuras podem incluir esses recursos para garantir a integridade dos dados e a privacidade dos usuários.
 
 ### Rotas Depoimentos
 
