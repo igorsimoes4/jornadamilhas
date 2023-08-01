@@ -4,7 +4,7 @@ A API Jornada Milhas é uma aplicação web que fornece endpoints para gerenciar
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-| :placard: Vitrine.Dev |     |
+| :placard: Vitrine.Dev |  https://cursos.alura.com.br/vitrinedev/igor01silveira  |
 | -------------  | --- |
 | :sparkles: Nome        | **Api Jornada Milhas**
 | :label: Tecnologias | php, laravel
