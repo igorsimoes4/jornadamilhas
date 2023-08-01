@@ -7,12 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Depoimentos extends Model
 {
+    protected $table = 'depoimentos';
+
     use HasFactory;
 
     protected $fillable = [
-        'name',
-        'depoimento',
         'foto',
+        'depoimento',
+        'nome_user',
     ];
 
 }

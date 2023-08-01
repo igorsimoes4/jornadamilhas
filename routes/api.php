@@ -23,8 +23,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::prefix('depoimentos')->group(function(){
     Route::get('/{id}', [DepoimentosController::class, 'show'])->name('show');
-    Route::post('/create', [DepoimentosController::class, 'create'])->name('create');
-    Route::put('/{id}', [DepoimentosController::class, 'edit'])->name('edit');
+    Route::post('/create', [DepoimentosController::class, 'store'])->name('create');
+    Route::put('/{id}', [DepoimentosController::class, 'update'])->name('edit');
     Route::delete('/{id}', [DepoimentosController::class, 'destroy'])->name('destroy');
 });
 
