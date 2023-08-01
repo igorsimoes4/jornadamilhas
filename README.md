@@ -100,6 +100,6 @@ Por favor, observe que esta API não implementa autenticação de usuários ou o
 
 ![Rotas depoimentos](https://github.com/igorsimoes4/jornadamilhas/assets/41714117/faffa45b-768d-45ca-a8da-7e0a4b6339ff)
 
-# Autores
+# Autor
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/41714117?v=4" width=115><br><sub>Igor Simões da Silveira</sub>](https://github.com/igorsimoes4) 
