@@ -8,8 +8,7 @@ A API Jornada Milhas é uma aplicação web que fornece endpoints para gerenciar
 | -------------  | --- |
 | :sparkles: Nome        | **Api Jornada Milhas**
 | :label: Tecnologias | php, laravel
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | [https://url-do-desafio.com.br](https://www.alura.com.br/challenges/back-end-7/semana-01-classes-relacionamentos-depoimentos)
+| :fire: Desafio     | [Link do Desafio](https://www.alura.com.br/challenges/back-end-7/semana-01-classes-relacionamentos-depoimentos)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://github-production-user-asset-6210df.s3.amazonaws.com/41714117/257077735-faffa45b-768d-45ca-a8da-7e0a4b6339ff.png#vitrinedev)
