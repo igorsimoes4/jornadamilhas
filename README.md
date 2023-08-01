@@ -3,7 +3,7 @@
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Api Jornada Milhas**
-| :label: Tecnologias | php, laravel, (tecnologias utilizadas)
+| :label: Tecnologias | php, laravel
 | :fire: Desafio     | [https://url-do-desafio.com.br](https://www.alura.com.br/challenges/back-end-7/semana-01-classes-relacionamentos-depoimentos)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
