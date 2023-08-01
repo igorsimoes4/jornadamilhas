@@ -102,4 +102,4 @@ Por favor, observe que esta API não implementa autenticação de usuários ou o
 
 # Autores
 
-[<img loading="igorsimoes4" src="[https://avatars.githubusercontent.com/u/41714117?v=4]" width=115><br><sub>Igor Simões da Silveira</sub>](https://github.com/igorsimoes4)
+[<img loading="lazy" src="https://avatars.githubusercontent.com/u/41714117?v=4" width=115><br><sub>Igor Simões da Silveira</sub>](https://github.com/igorsimoes4) 
