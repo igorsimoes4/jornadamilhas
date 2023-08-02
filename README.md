@@ -127,7 +127,7 @@ Antes de prosseguir, certifique-se de ter as seguintes tecnologias instaladas em
 Clone o repositório do projeto para o seu ambiente local usando o seguinte comando Git:
 
 ```bash
-git clone https://github.com/seu-usuario/jornada-milhas.git
+git clone https://github.com/igorsimoes4/jornada-milhas.git
 ```
 
 ## Passo 2: Instalar as dependências
