@@ -103,7 +103,6 @@ Permite excluir um depoimento existente.
 
 Por favor, observe que esta API não implementa autenticação de usuários ou outras medidas de segurança. Versões futuras podem incluir esses recursos para garantir a integridade dos dados e a privacidade dos usuários.
 
-Claro! Aqui está o texto formatado para o arquivo README.md no GitHub:
 
 # 📁 Acesso ao projeto
 
